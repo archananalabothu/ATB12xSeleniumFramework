@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="All Test Suite">
-    <!--    <test verbose="2" preserve-order="true" parallel="methods" thread-count="2" name="ATB12xSeleniumAdvanceFramework">-->
-    <test verbose="2" preserve-order="true"  name="ATB12xSeleniumFramework">
+    <test verbose="2" preserve-order="true" name="ATB12xSeleniumFramework">
         <classes>
-            <class name="com.archana.tests.pageObjectModel_test.vwo.TestVWOLogin_01_NormalScript_POM">
-            </class>
+            <class name="com.archana.tests.pageObjectModel_test.vwo.TestVWOLogin_01_NormalScript_POM"/>
         </classes>
     </test>
 </suite>
